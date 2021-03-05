@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T07:14:58.901Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="kGZ9uHPX81nucVVv4iRx" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T07:25:46.058Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="SnfUWsDFZoQW9K8127HP" version="14.4.3" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="981" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,22 +8,36 @@
           <mxGeometry x="320" y="90" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Or9v4SIIAj_S2g1zX2Sr-3" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="120" width="100" height="460" as="geometry" />
+          <mxGeometry x="70" y="120" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Or9v4SIIAj_S2g1zX2Sr-3">
+          <mxGeometry x="45" y="260" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Or9v4SIIAj_S2g1zX2Sr-7" value="Nginx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="200" y="120" width="100" height="460" as="geometry" />
+          <mxGeometry x="200" y="120" width="100" height="600" as="geometry" />
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Or9v4SIIAj_S2g1zX2Sr-7">
           <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Or9v4SIIAj_S2g1zX2Sr-8" value="Filter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="120" width="100" height="460" as="geometry" />
+          <mxGeometry x="330" y="120" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-15" value="没有session&lt;br&gt;进行拦截" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Or9v4SIIAj_S2g1zX2Sr-8">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Or9v4SIIAj_S2g1zX2Sr-9" value="Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="120" width="100" height="460" as="geometry" />
+          <mxGeometry x="460" y="120" width="100" height="590" as="geometry" />
         </mxCell>
         <mxCell id="Or9v4SIIAj_S2g1zX2Sr-10" value="三方单点登录&lt;br&gt;鉴权中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="590" y="120" width="100" height="460" as="geometry" />
+          <mxGeometry x="590" y="120" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Or9v4SIIAj_S2g1zX2Sr-10">
+          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-25" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="u6yMv0zxOhqang4DAun9-23" parent="Or9v4SIIAj_S2g1zX2Sr-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="396" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-5" value="登录页面" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="u6yMv0zxOhqang4DAun9-4" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-3">
           <mxGeometry relative="1" as="geometry">
@@ -33,6 +47,24 @@
         <mxCell id="u6yMv0zxOhqang4DAun9-6" value="Vue App" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="u6yMv0zxOhqang4DAun9-4" parent="1" target="Or9v4SIIAj_S2g1zX2Sr-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="175" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-16" value="在登录页面，点击通过三方系统登录" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="u6yMv0zxOhqang4DAun9-15" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-19" value="跳转首页 URL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-21" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" edge="1" target="u6yMv0zxOhqang4DAun9-20" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-24" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;重定向到三方&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;单点登录鉴权中心&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="u6yMv0zxOhqang4DAun9-23" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
