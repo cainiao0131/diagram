@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T07:10:13.143Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="kN-nRLbAmO9hxn_wCCRp" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T07:14:58.901Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="kGZ9uHPX81nucVVv4iRx" version="14.4.3" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="981" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,6 +13,9 @@
         <mxCell id="Or9v4SIIAj_S2g1zX2Sr-7" value="Nginx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="120" width="100" height="460" as="geometry" />
         </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Or9v4SIIAj_S2g1zX2Sr-7">
+          <mxGeometry x="45" y="70" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="Or9v4SIIAj_S2g1zX2Sr-8" value="Filter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="120" width="100" height="460" as="geometry" />
         </mxCell>
@@ -21,6 +24,16 @@
         </mxCell>
         <mxCell id="Or9v4SIIAj_S2g1zX2Sr-10" value="三方单点登录&lt;br&gt;鉴权中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="120" width="100" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-5" value="登录页面" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="u6yMv0zxOhqang4DAun9-4" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-6" value="Vue App" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="u6yMv0zxOhqang4DAun9-4" parent="1" target="Or9v4SIIAj_S2g1zX2Sr-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="266" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
