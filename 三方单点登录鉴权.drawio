@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T15:00:41.976Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="G3M4WD6sw07zisaHd6mc" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T15:03:50.489Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="MnHUYEaqrQiLV03p_3g3" version="14.4.3" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -191,7 +191,7 @@
         <mxCell id="8rMJmTV3KKsouPYQTct0-8" value="没有session&lt;br&gt;获取用户信息失败" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="735" y="170" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8rMJmTV3KKsouPYQTct0-9" value="路由到登录页面之前&lt;br&gt;先通过sessionID获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="8rMJmTV3KKsouPYQTct0-8" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-3">
+        <mxCell id="8rMJmTV3KKsouPYQTct0-9" value="前端路由&lt;br&gt;登录页面前的拦截器中&lt;br&gt;通过sessionID&lt;br&gt;到Gateway获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="8rMJmTV3KKsouPYQTct0-8" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="665" y="90" as="sourcePoint" />
           </mxGeometry>
@@ -203,12 +203,6 @@
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-11" value="获取用户信息失败&lt;br&gt;路由到登录页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="115" y="220" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="8rMJmTV3KKsouPYQTct0-21" value="在登录页面，点击通过三方系统登录按钮" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="119.5" y="1610" as="sourcePoint" />
-            <mxPoint x="375" y="1610" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="245" y="1420" width="10" height="40" as="geometry" />
@@ -223,20 +217,20 @@
             <mxPoint x="119.5" y="1458" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8rMJmTV3KKsouPYQTct0-25" value="没有session&lt;br&gt;获取用户信息失败" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="8rMJmTV3KKsouPYQTct0-25" value="有session" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="735" y="1480" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8rMJmTV3KKsouPYQTct0-26" value="路由到登录页面之前&lt;br&gt;先通过sessionID获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="8rMJmTV3KKsouPYQTct0-25">
+        <mxCell id="8rMJmTV3KKsouPYQTct0-26" value="前端路由&lt;br&gt;登录页面前的拦截器中&lt;br&gt;通过sessionID&lt;br&gt;到Gateway获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="8rMJmTV3KKsouPYQTct0-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="119.5" y="1480" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8rMJmTV3KKsouPYQTct0-27" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="8rMJmTV3KKsouPYQTct0-25">
+        <mxCell id="8rMJmTV3KKsouPYQTct0-27" value="返回用户信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="8rMJmTV3KKsouPYQTct0-25">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="125" y="1533" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8rMJmTV3KKsouPYQTct0-28" value="获取用户信息失败&lt;br&gt;路由到登录页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="8rMJmTV3KKsouPYQTct0-28" value="获取用户信息成功&lt;br&gt;拦截器直接路由到首页" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="115" y="1530" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
