@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T08:46:16.485Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="oTZbWQtEtmUyqlTkuS-3" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T08:48:03.494Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="qgLjTPkk22V6RmXm710d" version="14.4.3" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1185" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
         <mxCell id="u6yMv0zxOhqang4DAun9-59" value="三方鉴权接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="120" width="100" height="1310" as="geometry" />
         </mxCell>
-        <mxCell id="u6yMv0zxOhqang4DAun9-89" value="判断，不是调用HTTP请求鉴权&lt;br&gt;而是用UUID为key&lt;br&gt;从session中获取鉴权结果信息&lt;br&gt;获取后发现鉴权成功&lt;br&gt;&lt;br&gt;拼接用户名&lt;br&gt;查询用户在当前系统是否存在&lt;br&gt;如不存在则新增用户" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="u6yMv0zxOhqang4DAun9-59">
+        <mxCell id="u6yMv0zxOhqang4DAun9-89" value="判断，不是调用HTTP请求鉴权&lt;br&gt;而是用UUID为key&lt;br&gt;从session中获取鉴权结果信息&lt;br&gt;获取后发现鉴权成功&lt;br&gt;&lt;br&gt;拼接用户名&lt;br&gt;用户名前加上系统简称" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="u6yMv0zxOhqang4DAun9-59">
           <mxGeometry x="45" y="840" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-81" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.083;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="u6yMv0zxOhqang4DAun9-80" parent="1" source="u6yMv0zxOhqang4DAun9-48">
@@ -128,6 +128,19 @@
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-105" value="System1&lt;br&gt;用户系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#CCFF99;" vertex="1" parent="1">
           <mxGeometry x="820" y="120" width="100" height="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-113" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" vertex="1" parent="u6yMv0zxOhqang4DAun9-105">
+          <mxGeometry x="45" y="990" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-115" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="u6yMv0zxOhqang4DAun9-113" parent="u6yMv0zxOhqang4DAun9-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-25" y="1066" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6yMv0zxOhqang4DAun9-114" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;查询用户在当前系统是否存在&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="u6yMv0zxOhqang4DAun9-113" parent="1" source="u6yMv0zxOhqang4DAun9-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="1110" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
