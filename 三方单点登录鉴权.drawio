@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T09:07:16.392Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="T0-Hc1Pq9DE3R8wNC4eL" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-09T06:23:18.135Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="-dDwQmqjilBsMm_CN3b1" version="14.4.4" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1102" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
             <mxPoint x="415" y="770" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u6yMv0zxOhqang4DAun9-87" value="调用Gateway三方鉴权接口" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-9" target="u6yMv0zxOhqang4DAun9-86" edge="1">
+        <mxCell id="u6yMv0zxOhqang4DAun9-87" value="调用Gateway三方鉴权接口&lt;br&gt;需要注意SessionID的传递" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-9" target="u6yMv0zxOhqang4DAun9-86" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="629.9966666666668" y="850" as="sourcePoint" />
           </mxGeometry>
