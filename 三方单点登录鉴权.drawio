@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T08:23:36.298Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="gFVNlNfritib7sEsODj5" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T08:24:05.859Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="nwz3FeTCnwS_gdLTTn-U" version="14.4.6" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1102" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,7 +239,7 @@
         <mxCell id="8rMJmTV3KKsouPYQTct0-28" value="获取用户信息成功&lt;br&gt;拦截器直接路由到首页" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="115.33" y="1770" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="tfi55ZKblpoJ1w2pQm7T-1" value="前端路由拦截器中&lt;br&gt;判断如果是登录页面&lt;br&gt;则做如下判断&lt;br&gt;如果发现URL参数中&lt;br&gt;有登出参数&lt;br&gt;则调用登出接口&lt;br&gt;&lt;br&gt;如果不登出&lt;br&gt;则请求用户信息" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="tfi55ZKblpoJ1w2pQm7T-1" value="前端路由拦截器中&lt;br&gt;判断如果是登录页面&lt;br&gt;则做如下判断：&lt;br&gt;&lt;br&gt;如果发现URL参数中&lt;br&gt;有登出参数&lt;br&gt;则调用登出接口&lt;br&gt;&lt;br&gt;如果不登出&lt;br&gt;则请求用户信息" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="115" y="1570" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="3CqKeIGA3ldGCkDwYFLd-2" value="三方单点登录桥接接口&lt;br&gt;由三方淡定登录Filter拦截&lt;br&gt;Gateway配置白名单放过" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
