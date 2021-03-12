@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T02:30:24.616Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="rdxdqpTUNdCI_AqMemyU" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T02:31:22.533Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="jHKK_joEopOvVNvIedYN" version="14.4.7" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1102" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
         <mxCell id="yCwKrxc6vqiMpQ9KjseP-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="995" y="780" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yCwKrxc6vqiMpQ9KjseP-2" value="验证Ticket的有效性&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;/cas/serviceValidate&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="yCwKrxc6vqiMpQ9KjseP-1" parent="1" source="u6yMv0zxOhqang4DAun9-80">
+        <mxCell id="yCwKrxc6vqiMpQ9KjseP-2" value="验证Ticket的有效性&lt;br&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;/cas/serviceValidate?&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;ticket=123&amp;amp;service=http://system1/test&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="yCwKrxc6vqiMpQ9KjseP-1" parent="1" source="u6yMv0zxOhqang4DAun9-80">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="925" y="780" as="sourcePoint" />
           </mxGeometry>
