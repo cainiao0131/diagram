@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T02:29:34.156Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="oBmQ2YvEWY6KDFZwB8XH" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-12T02:30:24.616Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="rdxdqpTUNdCI_AqMemyU" version="14.4.7" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1102" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
             <mxPoint x="185" y="380" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u6yMv0zxOhqang4DAun9-24" value="/cas" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-3" target="u6yMv0zxOhqang4DAun9-23" edge="1">
+        <mxCell id="u6yMv0zxOhqang4DAun9-24" value="/cas?service=http://system1/test" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="Or9v4SIIAj_S2g1zX2Sr-3" target="u6yMv0zxOhqang4DAun9-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="565" y="440" as="sourcePoint" />
           </mxGeometry>
