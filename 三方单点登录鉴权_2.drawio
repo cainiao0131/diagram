@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T03:38:25.009Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="D4vBz9WHIwm4qPdqwhY5" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-14T03:38:54.011Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="di68nzVUABG9O-_hevfd" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,7 +196,7 @@
         <mxCell id="8rMJmTV3KKsouPYQTct0-25" value="有session" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="385.00000000000006" y="1819.8000000000002" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8rMJmTV3KKsouPYQTct0-26" value="前端路由&lt;br&gt;登录页面前的拦截器中&lt;br&gt;通过sessionID&lt;br&gt;到Gateway获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.7;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.167;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tfi55ZKblpoJ1w2pQm7T-1" target="8rMJmTV3KKsouPYQTct0-25" edge="1">
+        <mxCell id="8rMJmTV3KKsouPYQTct0-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.7;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.167;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tfi55ZKblpoJ1w2pQm7T-1" target="8rMJmTV3KKsouPYQTct0-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="1819.8000000000002" as="sourcePoint" />
             <mxPoint x="670" y="1819.8000000000002" as="targetPoint" />
