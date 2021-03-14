@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T03:38:54.011Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="di68nzVUABG9O-_hevfd" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-14T03:39:19.902Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="7vqfvIdteOywxFFNw_M-" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,25 +194,25 @@
           <mxGeometry x="115.33" y="200" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-25" value="有session" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="385.00000000000006" y="1819.8000000000002" width="10" height="60" as="geometry" />
+          <mxGeometry x="385.00000000000006" y="1790.0000000000002" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8rMJmTV3KKsouPYQTct0-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.7;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.167;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tfi55ZKblpoJ1w2pQm7T-1" target="8rMJmTV3KKsouPYQTct0-25" edge="1">
+        <mxCell id="8rMJmTV3KKsouPYQTct0-26" value="获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.167;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="tfi55ZKblpoJ1w2pQm7T-1" target="8rMJmTV3KKsouPYQTct0-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="1819.8000000000002" as="sourcePoint" />
-            <mxPoint x="670" y="1819.8000000000002" as="targetPoint" />
+            <mxPoint x="170" y="1791.2" as="sourcePoint" />
+            <mxPoint x="670" y="1790.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-27" value="返回用户信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.967;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8rMJmTV3KKsouPYQTct0-25" target="8rMJmTV3KKsouPYQTct0-28" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="1872.7999999999997" as="targetPoint" />
-            <mxPoint x="720" y="1873.7999999999997" as="sourcePoint" />
+            <mxPoint x="160" y="1842.9999999999998" as="targetPoint" />
+            <mxPoint x="720" y="1843.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-28" value="获取用户信息成功&lt;br&gt;拦截器直接路由到首页" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="115.33" y="1869.7999999999997" width="10" height="70" as="geometry" />
+          <mxGeometry x="115.33" y="1839.9999999999998" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tfi55ZKblpoJ1w2pQm7T-1" value="登录页前的拦截器中&lt;br&gt;如果Gateway鉴权失败&lt;br&gt;则调用一下登出接口&lt;br&gt;然后渲染登录页&lt;br&gt;&lt;br&gt;否则则请求用户信息" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="115" y="1670" width="10" height="149.8" as="geometry" />
+          <mxGeometry x="115" y="1670" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3CqKeIGA3ldGCkDwYFLd-2" value="三方单点登录桥接接口&lt;br&gt;由三方淡定登录Filter拦截&lt;br&gt;Gateway配置白名单放过" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="385" y="260" width="10" height="80" as="geometry" />
