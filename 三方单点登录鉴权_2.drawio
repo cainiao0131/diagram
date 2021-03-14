@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T02:57:33.751Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="94CX2TNqGzZqeavvYxo6" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-14T03:01:53.608Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="bwpjq1FEZn7Usa_xCQwO" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,10 +139,10 @@
         <mxCell id="u6yMv0zxOhqang4DAun9-80" value="Filter1，获取请求中的Ticket&lt;br&gt;Filter2，验证Ticket的有效性" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="515" y="720" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u6yMv0zxOhqang4DAun9-83" value="穿过Filter的都视为&lt;br&gt;单点登录鉴权成功&lt;br&gt;生成UUID&lt;br&gt;在Redis中以UUID为key&lt;br&gt;存入鉴权结果&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;需要注意SessionID的传递&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;保证浏览器的SessionID&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;与后端调用Gateway登陆接口时&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;的SessionID一致&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="u6yMv0zxOhqang4DAun9-83" value="穿过Filter的都视为&lt;br&gt;单点登录鉴权成功&lt;br&gt;生成UUID&lt;br&gt;在Redis中以UUID为key&lt;br&gt;存入鉴权结果" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="625" y="880.2" width="10" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="u6yMv0zxOhqang4DAun9-140" value="如果Gateway鉴权失败&lt;br&gt;则在重定向URL后面加上参数&lt;br&gt;表示需要登出&lt;br&gt;&lt;br&gt;设置重定向的Cookie&lt;br&gt;保证重定向的SessionID&lt;br&gt;与Gateway鉴权的SessionID一致" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="u6yMv0zxOhqang4DAun9-140" value="如果Gateway鉴权失败&lt;br&gt;则在重定向URL后面加上参数&lt;br&gt;表示需要登出" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="625" y="1480.2" width="10" height="159.8" as="geometry" />
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-89" value="判断，不是调用HTTP请求鉴权&lt;br&gt;而是用UUID为key&lt;br&gt;从Redis中获取鉴权结果信息&lt;br&gt;获取后发现鉴权成功&lt;br&gt;&lt;br&gt;拼接用户名&lt;br&gt;用户名前加上系统简称" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
