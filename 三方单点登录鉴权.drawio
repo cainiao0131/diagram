@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T02:31:10.116Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="bCq2vh8bj1kOBb9BClgI" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-14T02:40:09.799Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="8-EyYKOU2By5-glmTkVe" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,9 +122,9 @@
         <mxCell id="u6yMv0zxOhqang4DAun9-143" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;返回&lt;/span&gt;鉴权成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="1490.2" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u6yMv0zxOhqang4DAun9-145" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" parent="1" source="u6yMv0zxOhqang4DAun9-140" target="u6yMv0zxOhqang4DAun9-144" edge="1">
+        <mxCell id="u6yMv0zxOhqang4DAun9-145" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" parent="1" target="u6yMv0zxOhqang4DAun9-144" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="489.5" y="1580.2" as="sourcePoint" />
+            <mxPoint x="625.33" y="1639.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-20" value="重定向到&lt;br&gt;三方单点登录鉴权中心" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
@@ -134,7 +134,7 @@
           <mxGeometry x="115" y="590" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-144" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;重定向到&lt;br&gt;System 1 登录页面&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="115" y="1580.2" width="10" height="60" as="geometry" />
+          <mxGeometry x="115.33" y="1640" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-80" value="Filter1，获取请求中的Ticket&lt;br&gt;Filter2，验证Ticket的有效性" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="515" y="720" width="10" height="60" as="geometry" />
@@ -142,8 +142,8 @@
         <mxCell id="u6yMv0zxOhqang4DAun9-83" value="穿过Filter的都视为&lt;br&gt;单点登录鉴权成功&lt;br&gt;生成UUID&lt;br&gt;在Redis中以UUID为key&lt;br&gt;存入鉴权结果&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;需要注意SessionID的传递&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;保证浏览器的SessionID&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;与后端调用Gateway登陆接口时&lt;/span&gt;&lt;br style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;的SessionID一致&lt;/span&gt;" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="625" y="880.2" width="10" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="u6yMv0zxOhqang4DAun9-140" value="如果Gateway鉴权失败&lt;br&gt;则在重定向URL后面加上参数&lt;br&gt;表示需要登出" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="625" y="1480.2" width="10" height="100" as="geometry" />
+        <mxCell id="u6yMv0zxOhqang4DAun9-140" value="如果Gateway鉴权失败&lt;br&gt;则在重定向URL后面加上参数&lt;br&gt;表示需要登出&lt;br&gt;&lt;br&gt;设置重定向的Cookie&lt;br&gt;保证重定向的SessionID&lt;br&gt;与Gateway鉴权的SessionID一致" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="625" y="1480.2" width="10" height="159.8" as="geometry" />
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-89" value="判断，不是调用HTTP请求鉴权&lt;br&gt;而是用UUID为key&lt;br&gt;从Redis中获取鉴权结果信息&lt;br&gt;获取后发现鉴权成功&lt;br&gt;&lt;br&gt;拼接用户名&lt;br&gt;用户名前加上系统简称" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="735.33" y="1120.2" width="10" height="150" as="geometry" />
@@ -208,39 +208,39 @@
           <mxGeometry x="115.33" y="200" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="245" y="1640.2" width="10" height="40" as="geometry" />
+          <mxGeometry x="245.33" y="1700" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-23" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" target="8rMJmTV3KKsouPYQTct0-22" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="119.5" y="1640.2" as="sourcePoint" />
+            <mxPoint x="119.83" y="1700" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-24" value="Vue App" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.7;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.3;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8rMJmTV3KKsouPYQTct0-22" target="tfi55ZKblpoJ1w2pQm7T-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="119.5" y="1678.2" as="targetPoint" />
-            <mxPoint x="220" y="1680.2" as="sourcePoint" />
+            <mxPoint x="119.83" y="1738" as="targetPoint" />
+            <mxPoint x="220.33" y="1740" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-25" value="有session" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="385.00000000000006" y="1830.2" width="10" height="60" as="geometry" />
+          <mxGeometry x="385.33000000000004" y="1890" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-26" value="前端路由&lt;br&gt;登录页面前的拦截器中&lt;br&gt;通过sessionID&lt;br&gt;到Gateway获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.7;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.167;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="tfi55ZKblpoJ1w2pQm7T-1" target="8rMJmTV3KKsouPYQTct0-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="1830.2" as="sourcePoint" />
-            <mxPoint x="670" y="1830.2" as="targetPoint" />
+            <mxPoint x="170.33" y="1890" as="sourcePoint" />
+            <mxPoint x="670.33" y="1890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-27" value="返回用户信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.967;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8rMJmTV3KKsouPYQTct0-25" target="8rMJmTV3KKsouPYQTct0-28" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="1883.1999999999998" as="targetPoint" />
-            <mxPoint x="720" y="1884.1999999999998" as="sourcePoint" />
+            <mxPoint x="160.33" y="1942.9999999999998" as="targetPoint" />
+            <mxPoint x="720.33" y="1943.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8rMJmTV3KKsouPYQTct0-28" value="获取用户信息成功&lt;br&gt;拦截器直接路由到首页" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="115.33" y="1880.1999999999998" width="10" height="70" as="geometry" />
+          <mxGeometry x="115.66" y="1939.9999999999998" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tfi55ZKblpoJ1w2pQm7T-1" value="前端路由拦截器中&lt;br&gt;判断如果是登录页面&lt;br&gt;则做如下判断：&lt;br&gt;&lt;br&gt;如果发现URL参数中&lt;br&gt;有登出参数&lt;br&gt;则调用登出接口&lt;br&gt;&lt;br&gt;如果不登出&lt;br&gt;则请求用户信息" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
-          <mxGeometry x="115" y="1680.2" width="10" height="150" as="geometry" />
+          <mxGeometry x="115.33" y="1740" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="3CqKeIGA3ldGCkDwYFLd-2" value="三方单点登录桥接接口&lt;br&gt;由三方淡定登录Filter拦截&lt;br&gt;Gateway配置白名单放过" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="385" y="260" width="10" height="80" as="geometry" />
