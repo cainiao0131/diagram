@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T16:26:55.199Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="7h-l4RdTxE9MOmHu2AKy" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T16:44:37.676Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="qtqdgrblsmeRhoJ-1BFl" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,16 +97,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="800" y="570" width="10" height="80" as="geometry" />
+          <mxGeometry x="800" y="570" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-60" value="重定向到参数redirect_uri对应的URL" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-59" parent="1" source="rMGrHHltTkKnKPmvmLih-55">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="570" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-61" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-59" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="665" y="610" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-64" value="通过code换取&lt;br&gt;access token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-63" parent="1" source="rMGrHHltTkKnKPmvmLih-59">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="646" as="targetPoint" />
+            <mxPoint x="735" y="610" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-65" value="返回access token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=0;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="rMGrHHltTkKnKPmvmLih-63" parent="1" target="rMGrHHltTkKnKPmvmLih-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="667" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="800" y="660" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-68" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-66" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="746" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
