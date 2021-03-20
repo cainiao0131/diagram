@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T16:44:37.676Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="qtqdgrblsmeRhoJ-1BFl" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T16:45:42.093Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="UTbBFC6shFZcvy88ceN9" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,17 +112,25 @@
             <mxPoint x="735" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-65" value="返回access token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=0;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="rMGrHHltTkKnKPmvmLih-63" parent="1" target="rMGrHHltTkKnKPmvmLih-66">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-65" value="返回access token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=0;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="rMGrHHltTkKnKPmvmLih-63" parent="1" target="rMGrHHltTkKnKPmvmLih-66">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="667" as="targetPoint" />
+            <mxPoint x="780" y="667" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="800" y="660" width="10" height="80" as="geometry" />
+          <mxGeometry x="800" y="660" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-68" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-66" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="525" y="740" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-70" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-69" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="746" as="targetPoint" />
+            <mxPoint x="595" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-71" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-69" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="797" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
