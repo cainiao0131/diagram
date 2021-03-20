@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T16:12:43.286Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="3nFSl228ENwBTmCtNtv_" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T16:16:19.298Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="sl8IkCId06-MgdA9VHfL" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,16 +55,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="525" y="350" width="10" height="80" as="geometry" />
+          <mxGeometry x="525" y="350" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-39" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-38" parent="1" source="rMGrHHltTkKnKPmvmLih-35">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="455" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-40" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-38" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-40" value="返回用户授权页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=1.084;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="rMGrHHltTkKnKPmvmLih-38" parent="1" target="rMGrHHltTkKnKPmvmLih-46">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="455" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-42" value="也可以配置为默认用户同意授权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMGrHHltTkKnKPmvmLih-40">
+          <mxGeometry x="-0.5066" relative="1" as="geometry">
+            <mxPoint x="-105" y="12.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="115.16" y="400" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="525" y="460" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-50" value="用户同意三方系统获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.084;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-49" parent="1" source="rMGrHHltTkKnKPmvmLih-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-51" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-49" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="536" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
