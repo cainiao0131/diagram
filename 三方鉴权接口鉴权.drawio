@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T17:14:26.101Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="tm3w3GGWNHfj_DELeSXJ" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T17:14:56.241Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="QHyUFdii0QXWuEb_sJsi" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,6 +22,11 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="125" y="270" as="sourcePoint" />
             <mxPoint x="385" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1i8qNWAaKCdEuC1kmcj0-10" value="调用外部鉴权接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u6yMv0zxOhqang4DAun9-16">
+          <mxGeometry x="0.2231" y="-1" relative="1" as="geometry">
+            <mxPoint x="-34" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u6yMv0zxOhqang4DAun9-53" value="System1&lt;br&gt;Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#CCFF99;" parent="1" vertex="1">
