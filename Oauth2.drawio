@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T16:17:59.127Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="WHKaWxgcwBIkh2nS0jDk" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T16:19:26.509Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="PrUvU3Exks_8-_BnmEf_" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
             <mxPoint x="595" y="50" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-30" value="三方系统&lt;br&gt;服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-30" value="三方系统&lt;br&gt;Oauth2 鉴权接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="885" y="-30" width="100" height="1000" as="geometry" />
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-31" value="Oauth2&lt;br&gt;Resource" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
@@ -89,6 +89,11 @@
         <mxCell id="rMGrHHltTkKnKPmvmLih-56" value="重定向到参数redirect_uri对应的URL" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-55" parent="1" source="rMGrHHltTkKnKPmvmLih-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-58" value="并带有code参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMGrHHltTkKnKPmvmLih-56">
+          <mxGeometry x="-0.135" y="3" relative="1" as="geometry">
+            <mxPoint x="-32" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-57" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-55" parent="1">
