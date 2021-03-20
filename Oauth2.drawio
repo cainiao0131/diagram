@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T16:25:46.079Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ArkZ6pvkuBbVDZ3MNSPx" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T16:26:55.199Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="7h-l4RdTxE9MOmHu2AKy" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,15 +91,15 @@
             <mxPoint x="185" y="510" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-58" value="并带有code参数，如用户不同意则没有code参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMGrHHltTkKnKPmvmLih-56">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-58" value="如果用户同意，则带有code参数&lt;br&gt;如用户不同意，则没有code参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMGrHHltTkKnKPmvmLih-56">
           <mxGeometry x="-0.135" y="3" relative="1" as="geometry">
-            <mxPoint x="-32" y="7" as="offset" />
+            <mxPoint x="108" y="72" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="800" y="570" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-60" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-59" parent="1" source="rMGrHHltTkKnKPmvmLih-55">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-60" value="重定向到参数redirect_uri对应的URL" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-59" parent="1" source="rMGrHHltTkKnKPmvmLih-55">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="570" as="sourcePoint" />
           </mxGeometry>
