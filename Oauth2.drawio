@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T16:24:41.943Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="O7f1kP9aWmnhdWJ0vEl1" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T16:25:46.079Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="ArkZ6pvkuBbVDZ3MNSPx" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,9 +36,9 @@
         <mxCell id="rMGrHHltTkKnKPmvmLih-32" value="重定向到&lt;br&gt;Oauth2 接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="115" y="130" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=-0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-32" parent="1" source="rMGrHHltTkKnKPmvmLih-27">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-32" parent="1" source="rMGrHHltTkKnKPmvmLih-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="185" y="130" as="sourcePoint" />
+            <mxPoint x="880" y="130" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-35" value="如果没有登录 Gateway&lt;br&gt;会返回登录失败信息&lt;br&gt;前端拦截器中会重定向到登录页&lt;br&gt;&lt;br&gt;这里视为已登录" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
@@ -96,9 +96,17 @@
             <mxPoint x="-32" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-57" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-55" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="800" y="570" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-60" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-59" parent="1" source="rMGrHHltTkKnKPmvmLih-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="185" y="567" as="targetPoint" />
+            <mxPoint x="730" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-61" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-59" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="646" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
