@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T15:56:30.653Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="W3970PELD5DX-hnODkzK" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T16:06:28.709Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="9dQxVwsOwEskpkpglc_l" version="14.4.8" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,17 +19,12 @@
         <mxCell id="rMGrHHltTkKnKPmvmLih-26" value="Oauth2&lt;br&gt;Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="-30" width="100" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-27" value="未登录&lt;br&gt;没有Session" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-27" value="未登录&lt;br&gt;没有Session&lt;br&gt;拦截" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="800" y="50" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-28" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-27" parent="1" source="rMGrHHltTkKnKPmvmLih-1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-28" value="跳转到三方系统的页面" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-27" parent="1" source="rMGrHHltTkKnKPmvmLih-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="595" y="50" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-29" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-27" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="126" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-30" value="三方系统&lt;br&gt;服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
@@ -37,6 +32,27 @@
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-31" value="Oauth2&lt;br&gt;Resource" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="-30" width="100" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-32" value="重定向到&lt;br&gt;Oauth2 接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="115" y="130" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=-0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-32" parent="1" source="rMGrHHltTkKnKPmvmLih-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="525" y="190" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-36" value="?client_id=123&amp;amp;redirect_uri=www.test.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-35" parent="1" source="rMGrHHltTkKnKPmvmLih-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMGrHHltTkKnKPmvmLih-37" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="rMGrHHltTkKnKPmvmLih-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="266" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
