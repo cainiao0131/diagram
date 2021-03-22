@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T08:54:01.724Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="kXRhz_YQo5J0RiJHDiTl" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T08:56:05.413Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="N7k85lk4FI0HcDWEPBQz" version="14.4.9" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
     <mxGraphModel dx="1102" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="rMGrHHltTkKnKPmvmLih-26" value="Oauth2&lt;br&gt;Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="-30" width="100" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-27" value="未登录&lt;br&gt;没有Session&lt;br&gt;拦截" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-27" value="未登录&lt;br&gt;没有Session&lt;br&gt;且，没有code&lt;br&gt;拦截" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="800" y="50" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rMGrHHltTkKnKPmvmLih-28" value="跳转到三方系统的页面" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-1" target="rMGrHHltTkKnKPmvmLih-27" edge="1">
