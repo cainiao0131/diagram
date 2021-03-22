@@ -1,142 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2021-03-20T16:56:41.036Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="YKletwbtTDuuoDay2aoi" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-22T08:54:01.724Z" agent="5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="kXRhz_YQo5J0RiJHDiTl" version="14.4.9" type="github">
   <diagram id="dh1iSAnI9LNPIimuFHRk" name="第 1 页">
-    <mxGraphModel dx="1422" dy="1903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1102" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rMGrHHltTkKnKPmvmLih-30" value="三方系统&lt;br&gt;Oauth2 鉴权接口" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-30" value="三方系统&lt;br&gt;Oauth2 Filter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="755" y="-30" width="100" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-76" value="设置Session&lt;br&gt;并重定向到之前的页面&lt;br&gt;或者后端渲染返回页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-76" value="设置Session&lt;br&gt;并重定向到之前的页面&lt;br&gt;或者后端渲染返回页面" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="800" y="760" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-1" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-1" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="70.33" y="-30" width="99.67" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-2" value="Nginx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-2" value="Nginx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="-30" width="100" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-4" value="System1&lt;br&gt;Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#CCFF99;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-4" value="System1&lt;br&gt;Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#CCFF99;" parent="1" vertex="1">
           <mxGeometry x="340" y="-30" width="100" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-25" value="三方系统&lt;br&gt;Oauth2 Filter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="880" y="-30" width="100" height="1000" as="geometry" />
-        </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-26" value="Oauth2&lt;br&gt;Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-26" value="Oauth2&lt;br&gt;Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="-30" width="100" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-27" value="未登录&lt;br&gt;没有Session&lt;br&gt;拦截" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="925" y="50" width="10" height="80" as="geometry" />
+        <mxCell id="rMGrHHltTkKnKPmvmLih-27" value="未登录&lt;br&gt;没有Session&lt;br&gt;拦截" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="800" y="50" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-28" value="跳转到三方系统的页面" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-27" parent="1" source="rMGrHHltTkKnKPmvmLih-1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-28" value="跳转到三方系统的页面" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-1" target="rMGrHHltTkKnKPmvmLih-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="595" y="50" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-31" value="Oauth2&lt;br&gt;Resource" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-31" value="Oauth2&lt;br&gt;Resource" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="620" y="-30" width="100" height="1000" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-32" value="重定向到&lt;br&gt;Oauth2 接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-32" value="重定向到&lt;br&gt;Oauth2 接口" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="115" y="130" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-32" parent="1" source="rMGrHHltTkKnKPmvmLih-27">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-27" target="rMGrHHltTkKnKPmvmLih-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="880" y="130" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-35" value="如果没有登录 Gateway&lt;br&gt;会返回登录失败信息&lt;br&gt;前端拦截器中会重定向到登录页&lt;br&gt;&lt;br&gt;这里视为已登录" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-35" value="如果没有登录 Gateway&lt;br&gt;会返回登录失败信息&lt;br&gt;前端拦截器中会重定向到登录页&lt;br&gt;&lt;br&gt;这里视为已登录" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="384" y="240" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-36" value="通过Gateway访问Oauth2 Service&lt;br&gt;?client_id=123&amp;amp;redirect_uri=www.test.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-35" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-36" value="通过Gateway访问Oauth2 Service&lt;br&gt;?client_id=123&amp;amp;redirect_uri=www.test.com" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="rMGrHHltTkKnKPmvmLih-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="125" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-41" value="/oauth/authorize" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMGrHHltTkKnKPmvmLih-36">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-41" value="/oauth/authorize" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rMGrHHltTkKnKPmvmLih-36" vertex="1" connectable="0">
           <mxGeometry x="-0.0811" relative="1" as="geometry">
             <mxPoint x="6" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="525" y="350" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-39" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-38" parent="1" source="rMGrHHltTkKnKPmvmLih-35">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-39" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-35" target="rMGrHHltTkKnKPmvmLih-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="455" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-40" value="返回用户授权页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=1.084;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="rMGrHHltTkKnKPmvmLih-38" parent="1" target="rMGrHHltTkKnKPmvmLih-46">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-40" value="返回用户授权页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;entryX=1.084;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-38" target="rMGrHHltTkKnKPmvmLih-46" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="455" y="426" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-42" value="也可以配置为默认用户同意授权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMGrHHltTkKnKPmvmLih-40">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-42" value="也可以配置为默认用户同意授权" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rMGrHHltTkKnKPmvmLih-40" vertex="1" connectable="0">
           <mxGeometry x="-0.5066" relative="1" as="geometry">
             <mxPoint x="-105" y="12.5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="115.16" y="400" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="525" y="460" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-50" value="用户同意三方系统获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.084;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-49" parent="1" source="rMGrHHltTkKnKPmvmLih-46">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-50" value="用户同意三方系统获取用户信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.084;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-46" target="rMGrHHltTkKnKPmvmLih-49" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="455" y="460" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="115" y="510" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-56" value="重定向到参数redirect_uri对应的URL" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-55" parent="1" source="rMGrHHltTkKnKPmvmLih-49">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-56" value="重定向到参数redirect_uri对应的URL" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-49" target="rMGrHHltTkKnKPmvmLih-55" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="510" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-58" value="如果用户同意，则带有code参数&lt;br&gt;如用户不同意，则没有code参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMGrHHltTkKnKPmvmLih-56">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-58" value="如果用户同意，则带有code参数&lt;br&gt;如用户不同意，则没有code参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rMGrHHltTkKnKPmvmLih-56" vertex="1" connectable="0">
           <mxGeometry x="-0.135" y="3" relative="1" as="geometry">
             <mxPoint x="108" y="72" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="800" y="570" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-60" value="重定向到参数redirect_uri对应的URL" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-59" parent="1" source="rMGrHHltTkKnKPmvmLih-55">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-60" value="重定向到参数redirect_uri对应的URL" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-55" target="rMGrHHltTkKnKPmvmLih-59" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="570" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="665" y="610" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-64" value="通过code换取&lt;br&gt;access token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-63" parent="1" source="rMGrHHltTkKnKPmvmLih-59">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-64" value="通过code换取&lt;br&gt;access token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-59" target="rMGrHHltTkKnKPmvmLih-63" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="735" y="610" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-65" value="返回access token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=0;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="rMGrHHltTkKnKPmvmLih-63" parent="1" target="rMGrHHltTkKnKPmvmLih-66">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-65" value="返回access token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=0;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-63" target="rMGrHHltTkKnKPmvmLih-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="780" y="667" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="800" y="660" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
           <mxGeometry x="525" y="710" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-73" value="通过access token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rMGrHHltTkKnKPmvmLih-72" parent="1" source="rMGrHHltTkKnKPmvmLih-66">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-73" value="通过access token" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-66" target="rMGrHHltTkKnKPmvmLih-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="595" y="710" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-75" value="获取用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMGrHHltTkKnKPmvmLih-73">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-75" value="获取用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rMGrHHltTkKnKPmvmLih-73" vertex="1" connectable="0">
           <mxGeometry x="-0.4566" y="2" relative="1" as="geometry">
             <mxPoint x="-63" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMGrHHltTkKnKPmvmLih-74" value="返回用户信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=0;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="rMGrHHltTkKnKPmvmLih-72" parent="1" target="rMGrHHltTkKnKPmvmLih-76">
+        <mxCell id="rMGrHHltTkKnKPmvmLih-74" value="返回用户信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;entryX=0;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rMGrHHltTkKnKPmvmLih-72" target="rMGrHHltTkKnKPmvmLih-76" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750" y="767" as="targetPoint" />
           </mxGeometry>
