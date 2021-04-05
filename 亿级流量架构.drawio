@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T13:01:47.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="BF84fAoqAf5J7s7h6bPy" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T13:03:32.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="TqaflwUc5Ta_6oOY27iD" version="14.5.7" type="github">
   <diagram id="bHzi_ambgMTMRVsqIDpd" name="Page-1">
     <mxGraphModel dx="2370" dy="1270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,8 +85,8 @@
         <mxCell id="4Noo1hTe9u79b6L2qV_j-96" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-98">
           <mxGeometry width="373" height="335.05882352941177" as="geometry" />
         </mxCell>
-        <mxCell id="4Noo1hTe9u79b6L2qV_j-97" value="业务网关" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-98">
-          <mxGeometry width="90" height="30" as="geometry" />
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-97" value="业务网关&lt;br&gt;类似 Nginx 反向代理&lt;br&gt;当添加 API 网关后&lt;br&gt;在第三方调用端和服务提供方之间创建了一面墙" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-98">
+          <mxGeometry x="-150" y="-30" width="390" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4Noo1hTe9u79b6L2qV_j-108" value="" style="group" vertex="1" connectable="0" parent="4Noo1hTe9u79b6L2qV_j-98">
           <mxGeometry x="30" y="76.94117647058818" width="320" height="226.94" as="geometry" />
