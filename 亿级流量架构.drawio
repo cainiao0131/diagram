@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T12:18:04.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="2O3qXvISqK9GMKaZcNPK" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T12:19:35.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="1x2g2ioraG_ORzEEdjsk" version="14.5.7" type="github">
   <diagram id="bHzi_ambgMTMRVsqIDpd" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,6 +21,18 @@
         </mxCell>
         <mxCell id="4Noo1hTe9u79b6L2qV_j-6" value="CDN 服务器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-7">
           <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-37" value="&amp;nbsp;北京机房1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-7">
+          <mxGeometry x="10" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-38" value="&amp;nbsp;北京机房2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-7">
+          <mxGeometry x="110" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-39" value="&amp;nbsp;深圳机房" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-7">
+          <mxGeometry x="10" y="70" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-40" value="&amp;nbsp;机房" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-7">
+          <mxGeometry x="110" y="70" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4Noo1hTe9u79b6L2qV_j-8" value="" style="group" vertex="1" connectable="0" parent="4Noo1hTe9u79b6L2qV_j-10">
           <mxGeometry x="20" y="70" width="410" height="240" as="geometry" />
