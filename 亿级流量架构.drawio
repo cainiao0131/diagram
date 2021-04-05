@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T12:39:23.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="buQwuLfXBwvYGFzV2K3W" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T12:41:00.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="QXQhG7AHcDvUKcLzeOXU" version="14.5.7" type="github">
   <diagram id="bHzi_ambgMTMRVsqIDpd" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,10 +14,10 @@
           <mxGeometry width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4Noo1hTe9u79b6L2qV_j-41" value="HTTPS DNS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-10">
-          <mxGeometry x="370" y="115.1764705882353" width="110" height="41.88235294117647" as="geometry" />
+          <mxGeometry x="370" y="115.18" width="110" height="25" as="geometry" />
         </mxCell>
         <mxCell id="4Noo1hTe9u79b6L2qV_j-42" value="动态 DNS 解析" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-10">
-          <mxGeometry x="520" y="115.1764705882353" width="130" height="41.88235294117647" as="geometry" />
+          <mxGeometry x="520" y="115.1764705882353" width="130" height="25" as="geometry" />
         </mxCell>
         <mxCell id="4Noo1hTe9u79b6L2qV_j-95" value="" style="group" vertex="1" connectable="0" parent="4Noo1hTe9u79b6L2qV_j-10">
           <mxGeometry x="580" y="570" width="370" height="255.53" as="geometry" />
@@ -171,6 +171,15 @@
         <mxCell id="4Noo1hTe9u79b6L2qV_j-110" value="权限系统与单点登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-111">
           <mxGeometry width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-112" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-111">
+          <mxGeometry x="30" y="52" width="240" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-113" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-111">
+          <mxGeometry x="30" y="90" width="240" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-114" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-111">
+          <mxGeometry x="30" y="128" width="240" height="38" as="geometry" />
+        </mxCell>
         <mxCell id="4Noo1hTe9u79b6L2qV_j-105" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="4Noo1hTe9u79b6L2qV_j-10" source="4Noo1hTe9u79b6L2qV_j-3" target="4Noo1hTe9u79b6L2qV_j-93">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -181,6 +190,9 @@
           <mxGeometry x="-0.1949" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-116" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-10">
+          <mxGeometry x="440" y="49.9964705882353" width="130" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
