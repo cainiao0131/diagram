@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-05T12:20:38.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="9MSzo499P8Bmw0r8dLaJ" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T12:21:27.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="u9k7Y0sABui9mGWmlP2N" version="14.5.7" type="github">
   <diagram id="bHzi_ambgMTMRVsqIDpd" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,8 +97,11 @@
         <mxCell id="4Noo1hTe9u79b6L2qV_j-26" value="LVS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-12">
           <mxGeometry x="234.38" y="55.38461538461539" width="72.86" height="18.461538461538463" as="geometry" />
         </mxCell>
-        <mxCell id="4Noo1hTe9u79b6L2qV_j-41" value="HTTPS DNS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=left;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-10">
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-41" value="HTTPS DNS" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-10">
           <mxGeometry x="110" y="80" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4Noo1hTe9u79b6L2qV_j-42" value="动态 DNS 解析" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;align=center;" vertex="1" parent="4Noo1hTe9u79b6L2qV_j-10">
+          <mxGeometry x="260" y="80" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
